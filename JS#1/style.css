@@ -1,0 +1,138 @@
+
+
+*{
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+
+body , html{
+
+
+    background-color: #6665ee;
+    display: grid;   
+    height: 100%;
+    place-items: center;
+    padding: bottom 50px;
+
+}
+
+
+
+h4{
+
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.container{
+
+    width: 600px;
+    background-color: white;
+    border-radius: 19px;
+    /* margin: 10px 10px; */
+    padding: 35px 38px;
+    box-shadow: 4px 6px 7px 3px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+form{
+
+
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
+
+
+form input{
+
+
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: auto;
+    border: 2px;
+
+
+}
+
+
+form input.box{
+
+    width: 500px;
+
+    padding: 0 10px;
+
+    height: 40px;
+
+    font-size: 1.2rem;
+
+}
+
+form input.button{
+
+    background-color: #6665ee;
+    color: white;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-weight: 500;
+
+    font-size: 1rem;
+    border-radius: 20px;
+
+
+}
+
+
+h5 {
+    padding: 10px 0;
+    background-color: #ffd4cd;
+    width: 100%;
+    font-size: 1.2rem;
+    
+}
+
+
+.feedback{
+
+
+    display: none;
+}
+
+
+.show{
+
+    display: block;
+
+}
+
+.message-content{
+
+    color: #4b830a;
+
+
+
+
+}
