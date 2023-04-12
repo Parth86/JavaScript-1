@@ -12,12 +12,12 @@
         const messageContent = document.querySelector('.message-content');
 
 
-        if(message.value() === ''){
+        if(message.value === ''){
 
             feedback.classList.add('show');
 
             setTimeout(function(){
-                feedback.classList.remove(show)
+                feedback.classList.remove('show')
             },4000)
 
         }
